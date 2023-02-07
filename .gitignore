@@ -1,0 +1,9 @@
+/.idea/
+/.gradle/
+
+*.class
+*.log
+*.ctxt
+.mtj.tmp/
+build/
+**/build/
