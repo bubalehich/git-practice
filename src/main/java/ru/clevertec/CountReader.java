@@ -11,7 +11,7 @@ public class CountReader {
 
         try {
             return Integer.parseInt(count);
-        } catch (Exception e) {
+        } catch (Exception ex) {
             return 0;
         }
     }
