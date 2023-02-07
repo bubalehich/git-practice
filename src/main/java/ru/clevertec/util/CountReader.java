@@ -1,9 +1,12 @@
-package ru.clevertec;
+package ru.clevertec.util;
 
 import java.util.Scanner;
 
-public class CountReader {
+public final class CountReader {
     private static final Scanner scanner = new Scanner(System.in);
+
+    private CountReader() {
+    }
 
     public static int read() {
         System.out.println("Insert count:");
